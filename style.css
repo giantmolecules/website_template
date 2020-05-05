@@ -1,0 +1,53 @@
+/* ARTTECH3007 CSS */
+/* BBALOGH@SAIC.EDU */
+
+body{
+  font-family: sans-serif;
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+article{
+  align-items: center;
+}
+/*
+p{
+  justify-content: center;
+}
+*/
+.title{
+  padding: 10px;
+  margin: 10px;
+  flex:300px;
+}
+
+.gallery{
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: repeat(auto-fill,300px);
+  grid-auto-rows: 300px;
+  justify-items:center;
+}
+
+img{
+ height:100%;
+ width: 100%;
+ object-fit:cover;
+}
+
+h1{
+  font-family: 'Great Vibes', cursive;
+  font-size:100px; 
+}
+
+.titleimg{
+  width:25%;
+}
+
+.header{
+margin:30px;
+}
